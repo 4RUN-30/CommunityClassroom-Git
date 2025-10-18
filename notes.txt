@@ -1,0 +1,24 @@
+touch names.txt
+git status [To see the status of all the files that are modfied/added]
+git add names.txt [To add a file from Untracked to Tracked]
+git commit -m 'Added names.txt file' [To commit all the tracked files]
+git restore --staged names.txt [Reverting from Stage to Untracked]
+git reset b881a7047830949f43503bd7820552af9568fced [Reset to a Particular commit]
+git log [To see the commit history]
+git stash [To temporarily remove the staged changes]
+git stash pop [To get back the temporarily removed staged changes]
+git stash clear  [To clear all the Stash]
+git remote add origin https://github.com/4RUN-30/CommunityClassroom-Git.git
+    [To set the respective remote git repo
+        remote -> tells we are gonna use an url
+        add -> means new url
+        origin -> the actual url will follow this
+    ]
+git push origin master [All the commits will be pushed to master(branch) in origin(url)]
+git clone https://github.com/4RUN-30/back-end-new.git [To clone a repository]
+git remote -v [To see all the Remote's we have in our local]
+git branch oct-arun [To create a new branch]
+git checkout oct-arun [To switch the current branch]
+git push origin master -f [To force push]
+git pull upsteam main [To sync with upstream code]
+git rebase -i {commitId} [To squash commit (pick and squash)]
